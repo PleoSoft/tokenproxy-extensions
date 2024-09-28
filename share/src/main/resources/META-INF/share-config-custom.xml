@@ -1,0 +1,9 @@
+<alfresco-config>
+
+     <config evaluator="string-compare" condition="DocLibCustom">
+      <dependencies>         
+         <js src="/aosoverride/aos-override.js" />
+      </dependencies>
+   </config>
+
+</alfresco-config>
