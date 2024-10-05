@@ -3,7 +3,7 @@
 
     Alfresco.util.onlineEditUrlAos = function(g, d) {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET',  g.baseUrl + '/token/', false); //false for synchronous
+        xhr.open('GET',  Alfresco.constants.URL_CONTEXT+'token/', false); //false for synchronous
         try {
             xhr.send();
             if (xhr.status >= 200 && xhr.status < 300) {
